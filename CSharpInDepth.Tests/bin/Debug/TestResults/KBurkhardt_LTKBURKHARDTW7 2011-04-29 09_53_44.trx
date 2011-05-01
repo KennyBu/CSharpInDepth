@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="963b9272-b673-40f7-bb55-df687a25eea8" name="KBurkhardt@LTKBURKHARDTW7 2011-04-29 09:53:44" runUser="ENTERPRISE\KBurkhardt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="55e58983-03e4-4b79-aae8-fb678cddb323">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="KBurkhardt_LTKBURKHARDTW7 2011-04-29 09_53_44" />
+  </TestSettings>
+  <Times creation="2011-04-29T09:53:44.9998799-04:00" queuing="2011-04-29T09:53:45.4939293-04:00" start="2011-04-29T09:53:45.7319531-04:00" finish="2011-04-29T09:53:46.0009800-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_loop_products" storage="c:\temp\examples\csharpindepth\csharpindepth.tests\bin\debug\csharpindepth.tests.dll" id="63c19e7c-c4b9-da1f-f5bf-0d1a3931bf6b">
+      <Execution timeOut="1800000" id="bd87a7c9-9e84-45b3-a8e8-5b91d3811993" />
+      <TestMethod codeBase="C:/Temp/examples/CSharpInDepth/CSharpInDepth.Tests/bin/Debug/CSharpInDepth.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpInDepth.Tests.Ver2.Tests, CSharpInDepth.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_loop_products" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63c19e7c-c4b9-da1f-f5bf-0d1a3931bf6b" executionId="bd87a7c9-9e84-45b3-a8e8-5b91d3811993" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd87a7c9-9e84-45b3-a8e8-5b91d3811993" testId="63c19e7c-c4b9-da1f-f5bf-0d1a3931bf6b" testName="can_loop_products" computerName="LTKBURKHARDTW7" duration="00:00:00.0214880" startTime="2011-04-29T09:53:45.7919591-04:00" endTime="2011-04-29T09:53:45.8949694-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd87a7c9-9e84-45b3-a8e8-5b91d3811993">
+      <Output>
+        <StdOut>Assasians: 14.99
+Frogs: 13.99
+Sweeney Todd: 10.99</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

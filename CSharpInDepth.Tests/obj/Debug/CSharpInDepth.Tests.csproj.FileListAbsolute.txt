@@ -1,0 +1,5 @@
+C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\bin\Debug\CSharpInDepth.Tests.dll
+C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\bin\Debug\CSharpInDepth.Tests.pdb
+C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.dll
+C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.pdb

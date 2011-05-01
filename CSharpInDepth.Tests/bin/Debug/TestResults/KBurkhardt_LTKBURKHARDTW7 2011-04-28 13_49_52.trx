@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9d030454-1100-4d1c-99f1-ff4c9ba02c35" name="KBurkhardt@LTKBURKHARDTW7 2011-04-28 13:49:52" runUser="ENTERPRISE\KBurkhardt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f1cd4b97-74ca-40bc-a572-e61770e661f0">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="KBurkhardt_LTKBURKHARDTW7 2011-04-28 13_49_52" />
+  </TestSettings>
+  <Times creation="2011-04-28T13:49:52.6081011-04:00" queuing="2011-04-28T13:49:53.1521555-04:00" start="2011-04-28T13:49:53.3931796-04:00" finish="2011-04-28T13:49:53.6382041-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_sort_products" storage="c:\temp\examples\csharpindepth\csharpindepth.tests\bin\debug\csharpindepth.tests.dll" id="04eb2f6a-1f62-cc5f-84eb-2ac2e0fa7add">
+      <Execution timeOut="1800000" id="b9495486-34ad-4d43-943b-8f012d3bea2c" />
+      <TestMethod codeBase="C:/Temp/examples/CSharpInDepth/CSharpInDepth.Tests/bin/Debug/CSharpInDepth.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpInDepth.Tests.Ver2.Tests, CSharpInDepth.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_sort_products" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="04eb2f6a-1f62-cc5f-84eb-2ac2e0fa7add" executionId="b9495486-34ad-4d43-943b-8f012d3bea2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9495486-34ad-4d43-943b-8f012d3bea2c" testId="04eb2f6a-1f62-cc5f-84eb-2ac2e0fa7add" testName="can_sort_products" computerName="LTKBURKHARDTW7" duration="00:00:00.0180036" startTime="2011-04-28T13:49:53.4541857-04:00" endTime="2011-04-28T13:49:53.5461949-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9495486-34ad-4d43-943b-8f012d3bea2c">
+      <Output>
+        <StdOut>Assasians: 14.99
+Frogs: 13.99
+Sweeney Todd: 10.99
+West Side Story: 9.99</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
