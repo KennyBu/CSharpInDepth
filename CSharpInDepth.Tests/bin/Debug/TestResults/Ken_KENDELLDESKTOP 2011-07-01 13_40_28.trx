@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9ca1a6e9-6603-41dc-8fed-b4beb08be49e" name="Ken@KENDELLDESKTOP 2011-07-01 13:40:28" runUser="KenDellDesktop\Ken" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="cca58371-fbb5-42fb-9d6a-bfdafe77deca">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ken_KENDELLDESKTOP 2011-07-01 13_40_28" />
+  </TestSettings>
+  <Times creation="2011-07-01T13:40:28.2900758-04:00" queuing="2011-07-01T13:40:28.6630972-04:00" start="2011-07-01T13:40:28.8121057-04:00" finish="2011-07-01T13:40:28.9751150-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="test_a_simple_delegate" storage="c:\users\ken\repos\home\csharpindepth\csharpindepth.tests\bin\debug\csharpindepth.tests.dll" id="3376aede-5dab-5365-f026-e31e426d192f">
+      <Execution timeOut="1800000" id="f61636e5-0094-4f18-86b0-e76491f67aea" />
+      <TestMethod codeBase="c:/Users/Ken/repos/home/CSharpInDepth/CSharpInDepth.Tests/bin/Debug/CSharpInDepth.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpInDepth.Tests.Chapter2.SimpleDelegateTests, CSharpInDepth.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="test_a_simple_delegate" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3376aede-5dab-5365-f026-e31e426d192f" executionId="f61636e5-0094-4f18-86b0-e76491f67aea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f61636e5-0094-4f18-86b0-e76491f67aea" testId="3376aede-5dab-5365-f026-e31e426d192f" testName="test_a_simple_delegate" computerName="KENDELLDESKTOP" duration="00:00:00.0115491" startTime="2011-07-01T13:40:28.8491078-04:00" endTime="2011-07-01T13:40:28.9091112-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f61636e5-0094-4f18-86b0-e76491f67aea">
+      <Output>
+        <StdOut>Jon says: Hello, son.
+Tom says: Hello, daddy!
+(An airplane flies past.)</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

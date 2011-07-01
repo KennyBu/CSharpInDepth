@@ -3,3 +3,8 @@ C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\bin\Debug\CSharpInDepth.Tests
 C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\ResolveAssemblyReference.cache
 C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.dll
 C:\Temp\examples\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.pdb
+C:\Users\Ken\repos\home\CSharpInDepth\CSharpInDepth.Tests\bin\Debug\CSharpInDepth.Tests.dll
+C:\Users\Ken\repos\home\CSharpInDepth\CSharpInDepth.Tests\bin\Debug\CSharpInDepth.Tests.pdb
+C:\Users\Ken\repos\home\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ken\repos\home\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.dll
+C:\Users\Ken\repos\home\CSharpInDepth\CSharpInDepth.Tests\obj\Debug\CSharpInDepth.Tests.pdb

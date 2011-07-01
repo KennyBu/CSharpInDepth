@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2fcd4150-f429-4070-8626-7243a6b6c3eb" name="Ken@KENDELLDESKTOP 2011-07-01 12:08:24" runUser="KenDellDesktop\Ken" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="f503886c-4787-4b7a-9e43-5e4c75bbdc60">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ken_KENDELLDESKTOP 2011-07-01 12_08_24" />
+  </TestSettings>
+  <Times creation="2011-07-01T12:08:24.0725500-04:00" queuing="2011-07-01T12:08:24.6905854-04:00" start="2011-07-01T12:08:24.9305991-04:00" finish="2011-07-01T12:08:25.1676126-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_use_delegates" storage="c:\users\ken\repos\home\csharpindepth\csharpindepth.tests\bin\debug\csharpindepth.tests.dll" id="44902abe-ef73-6676-59e8-8f3cf8c0e5b6">
+      <Execution timeOut="1800000" id="88abde84-a5d1-4580-af30-2d1ef8721c57" />
+      <TestMethod codeBase="c:/Users/Ken/repos/home/CSharpInDepth/CSharpInDepth.Tests/bin/Debug/CSharpInDepth.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpInDepth.Tests.Chapter2.Tests, CSharpInDepth.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_use_delegates" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="44902abe-ef73-6676-59e8-8f3cf8c0e5b6" executionId="88abde84-a5d1-4580-af30-2d1ef8721c57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="88abde84-a5d1-4580-af30-2d1ef8721c57" testId="44902abe-ef73-6676-59e8-8f3cf8c0e5b6" testName="can_use_delegates" computerName="KENDELLDESKTOP" duration="00:00:00.0108459" startTime="2011-07-01T12:08:25.0156039-04:00" endTime="2011-07-01T12:08:25.0976086-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88abde84-a5d1-4580-af30-2d1ef8721c57">
+    </UnitTestResult>
+  </Results>
+</TestRun>
