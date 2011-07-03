@@ -3,6 +3,7 @@
     <string />
     <integer />
     <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
       <setting name="SolutionAnalysisEnabled">False</setting>
     </boolean>
   </SettingsComponent>
@@ -10,10 +11,19 @@
     <RecentFiles>
       <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Ver1/f:Tests.cs" caret="134" fromTop="0" />
       <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter2/f:SimpleDelegateTests.cs" caret="931" fromTop="9" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter2/f:Tests.cs" caret="66" fromTop="1" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="1959" fromTop="15" />
     </RecentFiles>
     <RecentEdits>
       <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter2/f:SimpleDelegateTests.cs" caret="974" fromTop="10" />
       <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter2/f:SimpleDelegateTests.cs" caret="1221" fromTop="17" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="2182" fromTop="10" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="177" fromTop="1" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="797" fromTop="23" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="418" fromTop="15" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="2176" fromTop="25" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="2135" fromTop="23" />
+      <File id="B2A249D4-9EA5-41E9-9C41-00F96AC6E793/d:Chapter3/f:Tests.cs" caret="2074" fromTop="24" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -27,4 +37,59 @@
     </NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="static" priority="1" />
+      <Item value="string" priority="5" />
+      <Item value="frequncies" priority="4" />
+      <Item value="new" priority="1" />
+      <Item value="Dictionary&lt;string,int&gt;" priority="0" />
+      <Item value="text" priority="0" />
+      <Item value="foreach" priority="2" />
+      <Item value="if" priority="0" />
+      <Item value="word" priority="3" />
+      <Item value="else" priority="0" />
+      <Item value="return" priority="1" />
+      <Item value="Dictionary" priority="0" />
+      <Item value="CountWords`0" priority="0" />
+      <Item value="KeyValuePair" priority="0" />
+      <Item value="entry" priority="1" />
+      <Item value="int" priority="2" />
+      <Item value="frequency" priority="0" />
+      <Item value="double" priority="1" />
+      <Item value="Math`0" priority="0" />
+      <Item value="Assert`0" priority="0" />
+      <Item value="List" priority="1" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="integers" priority="1" />
+      <Item value="Converter" priority="1" />
+      <Item value="converter" priority="0" />
+      <Item value="TakeSquareRoot`0" priority="0" />
+      <Item value="doubles" priority="1" />
+      <Item value="Console`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Split`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Sqrt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="ConvertAll`1" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>

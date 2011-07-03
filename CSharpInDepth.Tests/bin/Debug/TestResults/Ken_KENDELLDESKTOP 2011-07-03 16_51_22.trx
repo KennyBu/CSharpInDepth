@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f1c7ea79-2311-4fd2-bfaa-bfb14ac01350" name="Ken@KENDELLDESKTOP 2011-07-03 16:51:22" runUser="KenDellDesktop\Ken" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b97c76f7-8ce8-468d-b66e-b69dcf0aa1fa">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Ken_KENDELLDESKTOP 2011-07-03 16_51_22" />
+  </TestSettings>
+  <Times creation="2011-07-03T16:51:22.1713718-04:00" queuing="2011-07-03T16:51:22.5393929-04:00" start="2011-07-03T16:51:22.6904015-04:00" finish="2011-07-03T16:51:22.8564110-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="can_use_generics" storage="c:\users\ken\repos\home\csharpindepth\csharpindepth.tests\bin\debug\csharpindepth.tests.dll" id="eddc7005-eb46-af1a-9f50-82e818c3d532">
+      <Execution timeOut="1800000" id="4c234a55-344d-4b47-9329-90f2826ae9e3" />
+      <TestMethod codeBase="C:/Users/Ken/repos/home/CSharpInDepth/CSharpInDepth.Tests/bin/Debug/CSharpInDepth.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpInDepth.Tests.Chapter3.Tests, CSharpInDepth.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="can_use_generics" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="eddc7005-eb46-af1a-9f50-82e818c3d532" executionId="4c234a55-344d-4b47-9329-90f2826ae9e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4c234a55-344d-4b47-9329-90f2826ae9e3" testId="eddc7005-eb46-af1a-9f50-82e818c3d532" testName="can_use_generics" computerName="KENDELLDESKTOP" duration="00:00:00.0208255" startTime="2011-07-03T16:51:22.7284037-04:00" endTime="2011-07-03T16:51:22.7974076-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c234a55-344d-4b47-9329-90f2826ae9e3">
+      <Output>
+        <StdOut>Do: 1
+you: 1
+like: 3
+green: 2
+eggs: 2
+and: 2
+ham: 2
+I: 3
+do: 2
+not: 2
+them: 1
+Sam: 1
+am: 1
+: 1</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
