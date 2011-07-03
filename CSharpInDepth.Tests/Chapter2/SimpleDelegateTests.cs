@@ -36,10 +36,13 @@ namespace CSharpInDepth.Tests.Chapter2
          {
              var jon = new Person("Jon");
              var tom = new Person("Tom");
+
              StringProcessor jonsVoice, tomsVoice, background;
              jonsVoice = new StringProcessor(jon.Say);
              tomsVoice = new StringProcessor(tom.Say);
              background = new StringProcessor(Background.Note);
+
+
 
              jonsVoice("Hello, son.");
              tomsVoice.Invoke("Hello, daddy!");
