@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -98,6 +100,68 @@ namespace CSharpInDepth.Tests.Chapter3
 
             Assert.IsTrue(true);
         }
+
+        private struct RefSample<TClass> where TClass : class
+        {
+
+        }
+        
+        [TestMethod]
+        public void can_test_listing_3_3_1_reference_types()
+        {
+
+            RefSample<IDisposable> test;
+            RefSample<string> testString;
+            RefSample<int[]> testIntArray;
+            
+            //RefSample<Guid> testGuidFails;
+            //RefSample<int> testIntFails;
+
+            Assert.IsTrue(true);
+        }
+
+        private class ValSample<T> where T : struct
+        {
+
+        }
+
+        [TestMethod]
+        public void can_test_listing_3_3_1_value_types()
+        {
+
+            ValSample<int> testInt;
+            ValSample<FileMode> testFileModeEnum;
+            //ValSample<object> testObjectFail;
+            //ValSample<StringBuilder> testStringBuilderFail;
+
+            Assert.IsTrue(true);
+        }
+
+
+        public T CreateInstance<T>() where T : new()
+        {
+            return new T();
+        }
+
+        [TestMethod]
+        public void can_test_listing_3_3_1_constructor_type_constraint()
+        {
+
+            var intVar = CreateInstance<int>();
+            var objectVar = CreateInstance<object>();
+            
+            //fails because string as no parameterless constructor
+            //var stringVar = CreateInstance<string>(); 
+
+            Assert.IsTrue(true);
+        }
+
+
+        class Sample<T> where T : Stream,IEnumerable<string>,IComparable<int>
+        {
+            
+        }
+
 
     }
 }
